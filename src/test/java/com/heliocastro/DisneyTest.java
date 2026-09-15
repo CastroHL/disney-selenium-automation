@@ -28,19 +28,21 @@ public class DisneyTest {
     public void shouldNavigateToPrivacyPage() {
         homePage.clickPrivacy();
         assertEquals(
-                PrivacyPage.URL,
-                driver.getCurrentUrl());
+            PrivacyPage.URL,
+            driver.getCurrentUrl()
+        );
     }
 
     @Test
     public void shouldNavigateToExplorePage() {
         homePage.clickExplore();
         assertEquals(
-                ExplorePage.URL,
-                driver.getCurrentUrl());
+            ExplorePage.URL,
+            driver.getCurrentUrl()
+        );
     }
 
-    @AfterMethod 
+    @AfterMethod
     public void tearDown() {
         if (driver != null) {
             driver.quit();
