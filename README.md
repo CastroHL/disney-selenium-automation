@@ -57,7 +57,7 @@ Contains elements and actions specific to the Disney+ Explore page.
 
 ### PrivacyPage
 
-Contains information and functionality specific to the Disney+ Privacy page, including URL validation data.
+Contains information and functionality specific to the Disney+ Privacy page.
 
 ### Tests
 
@@ -82,7 +82,7 @@ The automation covers navigation across Disney+ pages and validates expected pag
 ### Privacy Page
 
 1. Open Disney+
-2. Click the Privacy link
+2. Navigate to the privacy page
 3. Verify navigation to the expected Privacy Policy URL
 4. Close the browser
 
@@ -90,7 +90,7 @@ The automation covers navigation across Disney+ pages and validates expected pag
 
 1. Open Disney+
 2. Navigate to the Explore page
-3. Validate the expected Explore page
+3. Verify navigation to the expected Explore URL
 4. Close the browser
 
 ## Prerequisites
