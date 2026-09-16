@@ -8,7 +8,6 @@ Selenium WebDriver automation framework for testing Disney+ using Java, TestNG, 
 * **Selenium WebDriver 4.35.0**
 * **TestNG 7.11.0**
 * **Maven**
-* **Chrome**
 * **Page Object Model (POM)**
 
 ## Project Structure
